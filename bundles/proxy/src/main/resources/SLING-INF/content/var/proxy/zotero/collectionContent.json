@@ -1,0 +1,9 @@
+{
+    "sling:resourceType": "sakai/proxy",
+        "sakai:request-proxy-endpoint": "https://api.zotero.org/users/${user}/collections/${collection}/items",
+    "sakai:request-proxy-method": "GET",
+    "sakai:title" : "Zotero get the content of a collection",
+    "sakai:description" : ["some description..."]
+}
+
+
